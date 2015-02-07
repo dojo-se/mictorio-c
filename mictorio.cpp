@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-//A entrada esperada é uma sequencia de 'x' e 'o' onde 'x' é ocupado e 'o' é vazio
+//A entrada esperada Ã© uma sequencia de 'x' e 'o' onde 'x' Ã© ocupado e 'o' Ã© vazio
 
 void mictorio(char* s){
 	int tamanho,i=0;
@@ -31,9 +31,10 @@ void mictorio(char* s){
 
 
 
-//A entrada esperada é uma sequencia de 'x' e 'o' onde 'x' é ocupado e 'o' é vazio
+//A entrada esperada Ã© uma sequencia de 'x' e 'o' onde 'x' Ã© ocupado e 'o' Ã© vazio
 int main(){
 	char mictorios[100];
+	printf("Digite a entrada (sequencia de 'x' e 'o' onde 'x' eh ocupado e 'o' eh vazio\n")
 	scanf("%s", mictorios);
 	mictorio(mictorios);
 	return 0;
