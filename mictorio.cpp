@@ -34,7 +34,7 @@ void mictorio(char* s){
 //A entrada esperada é uma sequencia de 'x' e 'o' onde 'x' é ocupado e 'o' é vazio
 int main(){
 	char mictorios[100];
-	printf("Digite a entrada (sequencia de 'x' e 'o' onde 'x' eh ocupado e 'o' eh vazio\n")
+	printf("Digite a entrada (sequencia de 'x' e 'o' onde 'x' eh ocupado e 'o' eh vazio\n");
 	scanf("%s", mictorios);
 	mictorio(mictorios);
 	return 0;
